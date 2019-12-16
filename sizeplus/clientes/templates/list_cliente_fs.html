@@ -1,0 +1,34 @@
+{% extends  "base.html" %}
+{% load materializecss%}
+{% load widget_tweaks %}
+{% block main %}
+
+<table>
+  <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>RG (Registro Geral)</th>
+        <th>CPF (Cadastro de Pessoa Física)</th>
+        <th>Telefone</th>
+        <th>Celular</th>
+        <th>Email</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for clientes in cliente %}
+    <tr>
+      <td>{{ clientes.pk }}</td>
+      <td>{{ clientes.nome_cliente }}</td>
+      <td>{{ clientes.rg_cliente }}</td>
+      <td>{{ clientes.cpf_cliente }}</td>
+      <td>{{ clientes.fone1_cliente }}</td>
+      <td>{{ clientes.cell_cliente }}</td>
+      <td>{{ clientes.email_cliente }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

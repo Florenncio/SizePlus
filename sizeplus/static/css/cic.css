@@ -1,0 +1,112 @@
+body{
+    font-size: 12px;
+}
+
+#btns {
+    margin-left: 25%;
+}
+
+#btn {
+    display: inline;
+    padding: 6%;
+}
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 4px 0 6px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+#pesquisa{
+    margin-left: 35%;
+}
+
+
+#linha{
+    margin-left: 6%;
+}
+
+#linha-sp{
+    margin-left: 12%;
+}
+
+
+
+#cent {
+
+    text-align: center;
+ 
+}
+
+#checklist-padding {
+    padding: 5px;
+}
+
+#label-left{
+    margin-left: 15px;
+
+}
+
+#center-all{
+    margin-left: auto;
+
+    margin-right: auto;
+
+    width: 6em;
+}
+
+#cab{
+    text-align: left;
+}
+
+
+.medio{
+    width: 50%;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.dataTables_filter{
+    display: none;
+}
+
+#span-search{
+    background-color: white;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: #fa3;
+  }
+  
+.switch label input[type=checkbox]:checked+.lever:after {
+    background-color: #f93;
+  }

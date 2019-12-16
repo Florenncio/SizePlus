@@ -1,0 +1,4 @@
+django-widget-tweaks==1.4.3
+django-materializecss-form
+django-multi-form-view
+behave-django==1.2.0
